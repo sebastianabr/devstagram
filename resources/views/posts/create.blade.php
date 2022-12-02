@@ -13,6 +13,7 @@
 @section('contenido')
     <div class="md:flex md:items-center">
         <h1>Ruperto es el  mas apuesto de toda la universidad mas mejor</h1>
+        <h1>otra version</h1>
     
         <div class="p-10 md:w-6/12 mt-10 bg-white rounded-xl shadow-xl md:mt-5">
             <form action="{{ route('posts.store') }}" method="POST">
