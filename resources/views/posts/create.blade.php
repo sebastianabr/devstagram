@@ -12,6 +12,7 @@
 @endpush
 @section('contenido')
     <div class="md:flex md:items-center">
+        <h1>Ruperto es el  mas apuesto de toda la universidad</h1>
         <div class="md:w-1/2 px-10">
             <form action="{{ route('imagenes.store') }}" method="POST" enctype="multipart/form-data" id="dropzone" class="dropzone border-2 w-full h-96 rounded flex flex-col justify-center items-center">@csrf</form>
         </div>
